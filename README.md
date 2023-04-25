@@ -14,6 +14,7 @@ https://www.baemin.com/
 ## 배달의 민족 네이버 블로그
 ![image](https://user-images.githubusercontent.com/116792686/234219203-6002fd3d-7dc0-42d5-aed0-cb10b656ea80.png)
 ### Detail
+- meta 정보 : title, h1, meta description 등을 추가하여 SEO를 고려함
 - 색 : rgba()를 사용해 투명도를 조절, 한 태그에 span 태그를 사용하여 일부만 색을 변경, 글씨가 두꺼워야하는 곳은 font-weight: bold를 사용
 - 배치 : body의 width를 제한해 element들이 그 안으로 들어오게 설정, div 태그를 사용해 구역을 나눠 필요한 부분만 flex display 적용, table 태그를 사용하여 element들을 배치
 - 포인터 : 누를 수 있는 element에 커서를 가져다대면 cursor:pointer를 사용하여 커서가 손가락 모양으로 변하게 설정, 글씨들은 색이 변하거나 밑줄이 그어지게 함(text-decoration: underline)
