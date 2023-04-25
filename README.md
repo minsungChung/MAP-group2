@@ -35,6 +35,7 @@ https://www.baemin.com/
 - shortcut icon을 사용하여 웹브라우저 탭에 이미지를 추가
 - z-index를 사용하여 HTML 문서 상에서 먼저 나온 element를 나중에 나온 element보다 앞으로 나오게 함
 - border-radius를 사용하여 프로필 이미지를 둥글게 처리
+- transform: translateY(-2px)를 사용하여 커서를 댔을 때 눌리는 느낌을 줌
 ### 느낀 점
 처음 해보는 작업이어서 많이 어려웠지만 팀원분들이 적극적으로 도와주셔서 구현할 수 있었습니다.
 
