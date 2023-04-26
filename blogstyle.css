@@ -1,3 +1,4 @@
+/* body의 width를 제한하고 가운데로 오게함 */
 body {
     margin: 0 auto;
     flex-wrap: wrap;
