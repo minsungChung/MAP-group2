@@ -29,7 +29,7 @@ https://www.baemin.com/
 
 우선 <html> 태그에 대한 전체적인 width, height, font-famliy를 설정하고 각 요소에서 오버라이딩
 
-![](media/ss1.png)
+<img width="1512" alt="ss1" src="https://user-images.githubusercontent.com/116792686/234434985-7a4dfaac-a609-48eb-8789-bf9fbb9e0719.png">
 ## 사진 동그랗게 만들기
 
 ```html
@@ -79,8 +79,8 @@ background: linear-gradient(#98e9ff, #ffffff 40%);
 
 ---
 
-![](media/ss2.png)
-![](media/ss3.png)
+<img width="1512" alt="ss2" src="https://user-images.githubusercontent.com/116792686/234435028-479dcb77-ea56-442f-9dbd-ad602da161b2.png">
+<img width="1512" alt="ss3" src="https://user-images.githubusercontent.com/116792686/234435047-ed49ab90-32b5-408e-a266-4f5e23354bc4.png">
 ## 상단바 고정
 
 ```css
