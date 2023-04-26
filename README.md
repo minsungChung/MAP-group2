@@ -10,6 +10,8 @@ https://www.baemin.com/
 4. 배달의 민족 인스타그램
 ---
 ## 배달의 민족 메인페이지
+![image](https://user-images.githubusercontent.com/116792686/234435867-b5478008-f3ca-4b5f-88bd-4a857718571e.png)
+
 ---
 ## 배달의 민족 네이버 블로그
 ![image](https://user-images.githubusercontent.com/116792686/234219203-6002fd3d-7dc0-42d5-aed0-cb10b656ea80.png)
