@@ -1,0 +1,301 @@
+
+html {
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: inline-flex;
+    width: 100%;
+    border-bottom: solid #d8d4d4 2px;
+
+    /* 스크롤해도 상단에 고정 */
+    background: #ffffff;
+    Position: sticky;
+    top:0px;
+    height: 3rem;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.header>*{
+    width: 100%;
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.header>form {
+    justify-content: flex-end;
+
+}
+
+form>button {
+    font-size: large;
+    border:none;
+    border-radius: 5px;
+    margin-right:5px;
+    color: #ffffff;
+}
+
+form>input {
+    color: #d8d4d4;
+    font-size: large;
+    border-color: #d8d4d4;
+    border-radius: 5px;
+    margin-right: 5px;
+    
+}
+
+form>p {
+    font-size: medium;
+    color: #3875f8;
+}
+
+#facebook-title {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    color: #3875f8 ;
+    font-weight: bold;
+    justify-content: flex-start;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    border-bottom: solid #d8d4d4 1px;
+
+    /* 배경 그라데이션: %로 비율 지정 */
+    background: linear-gradient(#98e9ff, #ffffff 40%);
+
+}
+
+#banner-div {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.profile-main {
+    width: 50%;
+    height: 50%;
+    display: inline-flex;
+    background-color: #ffffff;
+}
+
+#profile-div {
+    width: 150px;
+    height: 150px; 
+    border-radius: 70%;
+    overflow: hidden;
+}
+
+#banner, .profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name-explain{
+    padding-left: 10px;
+    padding-top: 50px;
+    margin-right: 20%;
+    width: 35%;
+    display: inline-flexbox;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0px;
+}
+
+#explain {
+    color: #b1acac;
+}
+
+#profile-button{
+    font-size: inherit;
+    width: 30%;
+    height:max-content;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    margin-top: 10%;
+}
+
+.list {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 50%;
+    height: 50%;
+    display: inline-flex;
+    align-content: flex-end;
+}
+
+.list>* {
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    color: #9b9999;
+    font-weight: bold;
+}
+
+.list>*:hover{
+    color: #3875f8;
+    border-bottom: solid #3875f8 2px;
+}
+
+#selected{
+    color: #3875f8;
+    border-bottom: solid #3875f8 2px;
+}
+
+section {
+    background-color: #f8f8f9;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-div {
+    width: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+article {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    margin: 10px;
+    
+}
+
+article>div {
+    width: 100%;
+    height: 100%;
+    border: solid #f2f2f2 1px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #ffffff;
+    border: solid #d8d8d8 1px;
+    border-radius: 5px;
+}
+
+aside {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    margin: 10px;
+
+}
+
+aside>div {
+    width: 100%;
+    height: 100%;
+    border: solid #3875f8 5px;
+    margin: 5px;
+    padding: 10px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: solid #d8d8d8 1px;
+    border-radius: 5px;
+}
+
+.card-title {
+    width: 100%;
+    display: inline-flex;
+}
+
+.card-div {
+    width: 15%;
+    margin: 10px;
+    border-radius: 70%;
+    overflow: hidden;
+    justify-content: flex-start;
+}
+
+.card-name {
+    margin: 5px;
+    margin-top: 20px;
+    width: max-content;
+    justify-content: right;
+    font-weight: bold;
+}
+
+.card-r {
+    margin: 5px;
+}
+.card-img {
+    margin: 5px;
+}
+
+.article-title{
+    margin: 5px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.article-name {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.article-same {
+    padding-right: 15px;
+    color: #3875f8;
+}
+
+.info {
+    margin: 5px;
+}
+
+.info>div {
+    margin: 1%;
+}
+
+.info-g {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.info-g>img {
+    width: 10%;
+}
+
+.info-g-r {
+    margin-left: 10px;
+}
+
+td {
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+.td-img {
+    border: solid #d8d8d8 1px;
+    border-radius: 5px;
+}
