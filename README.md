@@ -11,7 +11,14 @@ https://www.baemin.com/
 ---
 ## 배달의 민족 메인페이지
 ![image](https://user-images.githubusercontent.com/116792686/234435867-b5478008-f3ca-4b5f-88bd-4a857718571e.png)
-
+### Detail
+- menu bar를 한 줄에 정렬하기 위해 <div>태그 안에 <span>태그로 영역 분리
+- fontawesome 사이트의 아이콘 html 링크(i class) 적용 -> 해당 사이트 link href 필요
+- button 테두리 둥글게 하기 위해 border-radius : 26px 적용
+- 배민 사이트와 동일하게 텍스트 및 이미지를 중앙에 배치하기 위해 flex display 활용
+### Difficulties
+- 이미지 파일을 배경으로 설정 시 위에 아이콘을 올리면 화면 해상도가 깨지는 문제 발생
+- 왼쪽 부분 정렬을 맞추면 오른쪽의 아이콘들이 옆으로 밀려나는 문제 발생
 ---
 ## 배달의 민족 네이버 블로그
 ![image](https://user-images.githubusercontent.com/116792686/234219203-6002fd3d-7dc0-42d5-aed0-cb10b656ea80.png)
@@ -32,6 +39,7 @@ https://www.baemin.com/
 우선 <html> 태그에 대한 전체적인 width, height, font-famliy를 설정하고 각 요소에서 오버라이딩
 
 <img width="1512" alt="ss1" src="https://user-images.githubusercontent.com/116792686/234434985-7a4dfaac-a609-48eb-8789-bf9fbb9e0719.png">
+
 ## 사진 동그랗게 만들기
 
 ```html
@@ -83,6 +91,7 @@ background: linear-gradient(#98e9ff, #ffffff 40%);
 
 <img width="1512" alt="ss2" src="https://user-images.githubusercontent.com/116792686/234435028-479dcb77-ea56-442f-9dbd-ad602da161b2.png">
 <img width="1512" alt="ss3" src="https://user-images.githubusercontent.com/116792686/234435047-ed49ab90-32b5-408e-a266-4f5e23354bc4.png">
+
 ## 상단바 고정
 
 ```css
